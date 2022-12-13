@@ -31,17 +31,17 @@ The JS file comes with a few functions, which I highly encourage you to modify t
 6. `nodeImgSrcAlt(parent, source, alternate)` - Creates an `<img>` element. The image's `src=""` attribute is filled by the string provided in *source*, and the alt text is populated by the *alternate* argument. The `<img>` element is appended to the parent node. 
 
 For each function, the arguments are formatted as follows:
-**type** - a string representing the element type. For example, `'div'`
-**parent** - a reference to the parent node. This could be written as `document.getElementById('id')`, or can refer to a variable that references the node: 
+-**type** - a string representing the element type. For example, `'div'`
+-**parent** - a reference to the parent node. This could be written as `document.getElementById('id')`, or can refer to a variable that references the node: 
 ```
 const nodeWithId = document.getElementById('id');
 nodePlainCreator('div', nodeWithId);
 ```
-**text** - a string of text, such as `'hello'`;
-**classes** - a string of classes. These should be written with the same syntax used in an HTML attribute: `'class1 class-two funnyname'`
-**link** - a string containing information on a link/path. Write this string in the same manner you'd write the `href=""` attribute, such as: `'www.google.com'` for external links, or `'#nifty-id'` for internal links.
-**source** - a string containing information on a source path. Write this string in the same manner you'd write the `src=""` attribute in the final HTML document, such as: `'./images/nifty-image.jpg'`.
-**alternate** - a string that will populate the `alt=""` attribute, such as `'A beautiful sunset over the ocean'` 
+-**text** - a string of text, such as `'hello'`;
+-**classes** - a string of classes. These should be written with the same syntax used in an HTML attribute: `'class1 class-two funnyname'`
+-**link** - a string containing information on a link/path. Write this string in the same manner you'd write the `href=""` attribute, such as: `'www.google.com'` for external links, or `'#nifty-id'` for internal links.
+-**source** - a string containing information on a source path. Write this string in the same manner you'd write the `src=""` attribute in the final HTML document, such as: `'./images/nifty-image.jpg'`.
+-**alternate** - a string that will populate the `alt=""` attribute, such as `'A beautiful sunset over the ocean'` 
 
 ## A Demonstration
 
